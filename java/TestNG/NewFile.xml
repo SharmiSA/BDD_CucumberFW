@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Demo TestNG" verbose="2" parallel="classes" thread-count="10">
+
+<test name="DemoTest">
+<parameter name="Email" value="Christysharmila9@gmail.com"></parameter>
+
+<classes>
+<class name="TestNG.ParallelTesting">  </class> 
+
+</classes>
+
+</test>
+</suite>
